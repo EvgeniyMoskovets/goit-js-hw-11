@@ -26,7 +26,7 @@ async function fetchImages(query, page) {
 
 searchForm.addEventListener('submit', onFormSubmit);
 loadMoreBtn.addEventListener('click', onLoadMore);
-let lightbox = new SimpleLightbox('.gallery a', {});
+let lightbox = new SimpleLightbox('.gallery a');
 
 // display images
 function displayImages(images) {
