@@ -87,14 +87,14 @@ button:active {
   margin: 0;
 }
 
-.sl-overlay {
+.simple-lightbox .sl-overlay {
   background: #000;
 }
-.sl-close {
+.simple-lightbox .sl-close {
   color: #ed6d19;
 }
-.sl-counter {
+.simple-lightbox .sl-counter {
 }
-.sl-navigation button {
+.simple-lightbox .sl-navigation button {
   color: #ed6d19;
 }
