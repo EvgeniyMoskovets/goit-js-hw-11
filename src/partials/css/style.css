@@ -86,3 +86,15 @@ button:active {
 .info-item {
   margin: 0;
 }
+
+.sl-overlay {
+  background: #ed6d19;
+}
+.sl-close {
+  color: #ed6d19;
+}
+.sl-counter {
+}
+.sl-navigation button {
+  color: #ed6d19;
+}
