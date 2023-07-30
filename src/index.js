@@ -91,6 +91,7 @@ async function onLoadMore() {
 
   if (data && data.hits.length > 0) {
     displayImages(data.hits);
+    lightbox.refresh();
     if (data.totalHits <= currentPage * perPage) {
       setTimeout(() => loadMoreBtn.classList.remove('is-hide'), 500);
     }
